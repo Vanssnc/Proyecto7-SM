@@ -1,0 +1,127 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    max-width: 100%;
+    padding: 0%;
+    flex-grow: 0;
+}
+
+.secciondecontactos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 22%;
+    
+}
+
+.estadousuario{
+    display: flex;
+    flex-direction: row;
+    gap: 6%;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid rgb(202, 202, 202)
+}
+
+.datosusuario{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 2%;
+    margin-top: 2%;
+    margin-right: 15%;
+
+}
+
+.mifoto{
+    width: 20%;
+    height: 20%;
+    border-radius: 50%;
+}
+
+.informacion{
+    display: flex;
+    padding-top: 4%;
+    flex-direction: column;
+   
+}
+
+.nombrecontacto{
+    font-size: 110%;
+    margin: 0;
+    text-align: start;
+}
+
+.estado{
+    color: rgb(163, 163, 163);
+    font-size: 85%;
+    padding-top: 0;
+}
+
+.iconos{
+    color: rgb(163, 163, 163);
+    font-size: 110%;
+    width: 9em;
+    height: 3em;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-right: 4%;
+    
+}
+
+.nuevochat{
+    width: 100%;
+    height: 8em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #aaaa
+
+}
+
+.boton{
+    background-color: #A491D2;
+    color: aliceblue;
+    height:30%;
+    width: 60%;
+    text-align: center;
+    padding: 2%;
+}
+
+.chat{
+    display: flex;
+    flex-direction: row;
+    gap: 6%;
+    align-items: center;
+    border: 1px solid rgb(202, 202, 202)
+}
+
+.fotoperfil{
+    width: 20%;
+    margin:  3%;
+    border-radius: 50%;
+}
+
+.visto{
+    color: #909090aa;
+}
+
+.seccionprincipal{
+    width: 100%;
+    height: 113vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo{
+    height: 15em;
+}
+
+.subtitulo{
+    text-align: center;
+}
